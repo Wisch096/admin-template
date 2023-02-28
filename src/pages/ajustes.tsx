@@ -5,7 +5,7 @@ export default function Home() {
 
   return (
 
-    <Layout titulo={'Laís'} subtitulo={'Bom nome'}>
+    <Layout titulo={'Ajustes e Configurações'} subtitulo={'Personalize o sistema por aqui!'}>
       <h3>conteudo</h3>
     </Layout>
   )
