@@ -1,9 +1,7 @@
-import '@/styles/globals.css'
-import Home from '.'
+import '@/styles/globals.css';
 
-
-export default function App() {
-  return (
-      <Home />
-  )
+function MyApp({ Component, pageProps}) {
+  return <Component {...pageProps} />
 }
+
+export default MyApp;

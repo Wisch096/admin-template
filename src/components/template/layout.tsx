@@ -1,4 +1,4 @@
-import MenuLateral from "./menulateral"
+import MenuLateral from "./MenuLateral"
 import Cabecalho from "./cabecalho"
 import Conteudo from "./conteudo"
 
