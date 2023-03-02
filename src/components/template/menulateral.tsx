@@ -5,7 +5,11 @@ import Image from "next/image"
 
 export default function MenuLateral() {
     return (
-        <aside className="flex flex-col">
+        <aside className={`
+            flex flex-col
+            bg-gray-200 
+            dark:bg-gray-900
+            `}>
             <div className={`
                 flex flex-col items-center justify-center
                 bg-gradient-to-r from-zinc-900 to-red-700
